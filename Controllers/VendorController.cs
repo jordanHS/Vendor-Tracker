@@ -5,14 +5,14 @@ using VendorTracker.Models;
 
 namespace VendorTracker.Controllers
 {
-  public class CategoriesController : Controller
+  public class VendorsController : Controller
   {
 
     [HttpGet("/vendors")]
     public ActionResult Index()
     {
-      List<Category> allCategories = Category.GetAll();
-      return View(allCategories);
+      List<Vendor> allVendors = Vendor.GetAll();
+      return View(allVendors);
     }
 
     [HttpGet("/vendors/new")]
@@ -24,7 +24,7 @@ namespace VendorTracker.Controllers
     [HttpPost("/vendors")]
     public ActionResult Create(string vendorName)
     {
-      Category newCategory = new Category(categoryName);
+      foundVendor newVendor = new Vendor(vendorName);
       return RedirectToAction("Index");
     }
 
@@ -33,7 +33,7 @@ namespace VendorTracker.Controllers
     {
       Dictionary<string, object> model = new Dictionary<string, object>();
       Vendor selectedVendor = Vendor.Find(id);
-      List<Item> VendorOrders = selectedVendor.Order;
+      List<Order> VendorOrders = selectedVendor.Order;
       model.Add("vendor", selectedVendor);
       model.Add("order", vendorOrder);
       return View(model);
