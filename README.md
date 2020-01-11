@@ -23,7 +23,7 @@ These instructions will get you a copy of the project up and running on your loc
 * User can look up a list of orders made by certain vender.
 
 ## Known bugs or errors:
-* Application is unable to build due to to errors in Vendor class where a namespace cannot be found. (Error CS046)
+* Application is unable to build due to many errors.
 
 ## Technologies Used
 
