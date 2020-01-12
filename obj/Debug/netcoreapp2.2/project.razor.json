@@ -1,0 +1,55 @@
+{
+  "FilePath": "/Users/jordansafford/Desktop/Vendor-Tracker/VendorTracker.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-2.1",
+    "LanguageVersion": "2.1",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-2.1"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 703
+  },
+  "RootNamespace": "VendorTracker",
+  "Documents": [
+    {
+      "FilePath": "/Users/jordansafford/Desktop/Vendor-Tracker/Views/Categories/Show.cshtml",
+      "TargetPath": "Views/Categories/Show.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/jordansafford/Desktop/Vendor-Tracker/Views/Categories/New.cshtml",
+      "TargetPath": "Views/Categories/New.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/jordansafford/Desktop/Vendor-Tracker/Views/Items/New.cshtml",
+      "TargetPath": "Views/Items/New.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/jordansafford/Desktop/Vendor-Tracker/Views/Home/Index.cshtml",
+      "TargetPath": "Views/Home/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/jordansafford/Desktop/Vendor-Tracker/Views/Home/Show.cshtml",
+      "TargetPath": "Views/Home/Show.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/jordansafford/Desktop/Vendor-Tracker/Views/Items/Index.cshtml",
+      "TargetPath": "Views/Items/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/jordansafford/Desktop/Vendor-Tracker/Views/Categories/Index.cshtml",
+      "TargetPath": "Views/Categories/Index.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
+  "SerializationFormat": "0.2"
+}
