@@ -35,7 +35,7 @@ namespace VendorTracker.Controllers
       Vendor selectedVendor = Vendor.Find(id);
       List<Order> VendorOrders = selectedVendor.Order;
       model.Add("vendor", selectedVendor);
-      model.Add("order", vendorOrder);
+      model.Add("order", VendorOrders);
       return View(model);
     }
 
@@ -46,8 +46,8 @@ namespace VendorTracker.Controllers
       Vendor foundVendor = Vendor.Find(vendorId);
       Order newOrder = new Order(orderDescription);
       foundVendor.AddIt(newOrder);
-      List<Order> vendorOrders = foundVendor.Orders;
-      model.Add("orders", vendorOrders);
+      List<Order> VendorOrders = foundVendor.Orders;
+      model.Add("orders", VendorOrders);
       model.Add("vendor", foundVendor);
       return View("Show", model);
     }

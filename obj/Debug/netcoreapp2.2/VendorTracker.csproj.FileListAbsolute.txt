@@ -4,3 +4,9 @@
 /Users/Guest/Desktop/VendorTracker.Solution/VendorTracker/obj/Debug/netcoreapp2.2/VendorTracker.RazorAssemblyInfo.cs
 /Users/Guest/Desktop/VendorTracker.Solution/VendorTracker/obj/Debug/netcoreapp2.2/VendorTracker.AssemblyInfoInputs.cache
 /Users/Guest/Desktop/VendorTracker.Solution/VendorTracker/obj/Debug/netcoreapp2.2/VendorTracker.AssemblyInfo.cs
+/Users/jordansafford/Desktop/Vendor-Tracker/obj/Debug/netcoreapp2.2/VendorTracker.csprojAssemblyReference.cache
+/Users/jordansafford/Desktop/Vendor-Tracker/obj/Debug/netcoreapp2.2/VendorTracker.csproj.CoreCompileInputs.cache
+/Users/jordansafford/Desktop/Vendor-Tracker/obj/Debug/netcoreapp2.2/VendorTracker.RazorAssemblyInfo.cache
+/Users/jordansafford/Desktop/Vendor-Tracker/obj/Debug/netcoreapp2.2/VendorTracker.RazorAssemblyInfo.cs
+/Users/jordansafford/Desktop/Vendor-Tracker/obj/Debug/netcoreapp2.2/VendorTracker.AssemblyInfoInputs.cache
+/Users/jordansafford/Desktop/Vendor-Tracker/obj/Debug/netcoreapp2.2/VendorTracker.AssemblyInfo.cs
