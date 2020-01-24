@@ -21,9 +21,9 @@ namespace ToDoList.Controllers
     }
 
     [HttpPost("/vendors")]
-    public ActionResult Create(string vendorName)
+    public ActionResult Create(string vendorName,string vendorDesription)
     {
-      Vendor newVendor = new Category(vendorName);
+      Vendor newVendor = new Vendor(vendorName, vendorDesription);
       return RedirectToAction("Index");
     }
 

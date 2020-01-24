@@ -14,7 +14,7 @@ namespace ToDoList.Models
     public Order(string title, string orderDescription, int price, string date)
     {
       Title = title;
-      Description = description;
+      OrderDescription = orderDescription;
       Price = price;
       Date = date;
       _instances.Add(this);
