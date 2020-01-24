@@ -3,7 +3,7 @@ using System;
 using Microsoft.AspNetCore.Mvc;
 using VendorTracker.Models;
 
-namespace ToDoList.Controllers
+namespace VendorTracker.Controllers
 {
   public class VendorsController : Controller
   {
@@ -33,20 +33,20 @@ namespace ToDoList.Controllers
       Dictionary<string, object> model = new Dictionary<string, object>();
       Vendor selectedVendor = Vendor.Find(id);
       List<Order> vendorOrders = selectedVendor.Orders;
-      model.Add("order", selectedVendor);
+      model.Add("vendor", selectedVendor);
       model.Add("orders", vendorOrders);
       return View(model);
     }
 
     
     [HttpPost("/vendors/{vendorId}/orders")]
-    public ActionResult Create(int vendorId, string title, string orderDescription, int price, string date)
+    public ActionResult Create(int vendorId, string title, string orderDescription, int qty, int price, string date)
     {
       Dictionary<string, object> model = new Dictionary<string, object>();
-      Vendor foundVendor = Category.Find(categoryId);
-      Order newOrder = new Order(title,orderDescription, price, date);
-      foundOrder.AddOrder(newOrder);
-      List<Order> vendorOrder = foundVendor.Orders;
+      Vendor foundVendor = Vendor.Find(vendorId);
+      Order newOrder = new Order(title, orderDescription, qty, price, date);
+      foundVendor.AddOrder(newOrder);
+      List<Order> vendorOrders = foundVendor.Orders;
       model.Add("orders", vendorOrders);
       model.Add("vendor", foundVendor);
       return View("Show", model);
