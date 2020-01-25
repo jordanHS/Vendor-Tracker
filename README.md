@@ -22,6 +22,11 @@ These instructions will get you a copy of the project up and running on your loc
 * User can find the description, price and date of an order.
 * User can look up a list of orders made by certain vender.
 
+ User input | Expected output |
+| :------------- | :------------- |
+| Vendor Name; Order title, description, quanity, cost & date | Vendor - Order |
+
+
 ## Known bugs or errors:
 * Application is unable to build due to many errors.
 

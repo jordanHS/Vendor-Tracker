@@ -38,6 +38,5 @@
 /Users/Guest/Desktop/Vendor-Tracker/obj/Debug/netcoreapp2.2/Razor/Views/Vendors/Index.g.cshtml.cs
 /Users/Guest/Desktop/Vendor-Tracker/obj/Debug/netcoreapp2.2/Razor/Views/Vendors/New.g.cshtml.cs
 /Users/Guest/Desktop/Vendor-Tracker/obj/Debug/netcoreapp2.2/Razor/Views/Vendors/Show.g.cshtml.cs
-/Users/Guest/Desktop/Vendor-Tracker/obj/Debug/netcoreapp2.2/Razor/Views/Orders/DeleteAll.g.cshtml.cs
 /Users/Guest/Desktop/Vendor-Tracker/obj/Debug/netcoreapp2.2/Razor/Views/Orders/New.g.cshtml.cs
 /Users/Guest/Desktop/Vendor-Tracker/obj/Debug/netcoreapp2.2/Razor/Views/Orders/Show.g.cshtml.cs
